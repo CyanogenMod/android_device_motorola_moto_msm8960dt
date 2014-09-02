@@ -537,9 +537,9 @@ SectionVerb
 	EnableSequence
 	EndSequence
 
+	# HASH: this causes widgets to hang when writing this
+	# 'VOC_EXT_EC MUX':1:0
 	DisableSequence
-		# HASH: this causes widgets to hang when writing this
-		# 'VOC_EXT_EC MUX':1:0
 		'MI2S_RX_Voice Mixer CSVoice':1:0
 		'Voice_Tx Mixer SLIM_0_TX_Voice':1:0
 	EndSequence
@@ -553,9 +553,9 @@ EndSection
 SectionVerb
 	Name "Voice CallSpeaker DMIC Endfire"
 
+	# HASH: this causes widgets to hang when writing this
+	# 'VOC_EXT_EC MUX':1:1
 	EnableSequence
-		# HASH: this causes widgets to hang when writing this
-		# 'VOC_EXT_EC MUX':1:1
 		'MI2S_RX_Voice Mixer CSVoice':1:1
 		'Voice_Tx Mixer SLIM_0_TX_Voice':1:1
 	EndSequence
@@ -3254,9 +3254,9 @@ SectionModifier
 	EnableSequence
 	EndSequence
 
+	# HASH: this causes widgets to hang when writing this
+	# 'VOC_EXT_EC MUX':1:0
 	DisableSequence
-		# HASH: this causes widgets to hang when writing this
-		# 'VOC_EXT_EC MUX':1:0
 		'MI2S_RX_Voice Mixer CSVoice':1:0
 		'Voice_Tx Mixer SLIM_0_TX_Voice':1:0
 	EndSequence
@@ -3270,9 +3270,9 @@ EndSection
 SectionModifier
 	Name "Play VoiceSpeaker DMIC Endfire"
 
+	# HASH: this causes widgets to hang when writing this
+	# 'VOC_EXT_EC MUX':1:1
 	EnableSequence
-		# HASH: this causes widgets to hang when writing this
-		# 'VOC_EXT_EC MUX':1:1
 		'MI2S_RX_Voice Mixer CSVoice':1:1
 		'Voice_Tx Mixer SLIM_0_TX_Voice':1:1
 	EndSequence
